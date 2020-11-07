@@ -13,5 +13,7 @@ pip install djangorestframework-xml
 라즈베리파이에서는 pip3 이용
 
 ```buildoutcfg
-python manage.py runserver 0.0.0.0:80
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 0.0.0.0:8000
 ```
